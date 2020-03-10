@@ -6,8 +6,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// somar dois valores
-        //Uso da classe Scanner para leitura
+	    /*
+	        somar dois valores
+            Uso da classe Scanner para leitura
+        */
         Scanner entrada = new Scanner(System.in);
 
         int a, b, soma;
@@ -23,6 +25,10 @@ public class Main {
         System.out.println("Digite seu nome completo");
         nome = entrada.nextLine();
         System.out.println("Nome: " + nome);
+
+        //Conversao de Numérico para String
+        int x = 10;
+        String str_x = Integer.toString(x);
 
     }
 }
